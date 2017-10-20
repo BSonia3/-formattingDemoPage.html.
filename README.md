@@ -1,41 +1,73 @@
 # -formattingDemoPage.html.
-Formatting Demo Page
+<!DOCTYPE html>
+<html>
+<head>
+     <title>formattingDemoPage</title>
+</head>
+<body>
 
-This simple page demonstrates the formatting tags covered in this lesson.
+    <h1>Formatting Demo Page</h1>
 
-Bold and Strong
+    <p>
+            This simple page demonstrates the 
+            formatting tags covered in this lesson.
+    </p>
+    <h2>Bold and Strong</h2>
+     
+    <b>This is bold text.</b>
+    <p>
+            The strong tag has the same visual effect 
+            as the bold tag but the strong tag also marks 
+            the enclosed text as more important. It is also 
+            easier for screen readers to read for the visually
+             disabled.
+    </p>
+    <strong>This is what strong text looks like.</strong>
 
-This is bold text.
-The strong tag has the same visual effect as the bold tag but the strong tag also marks the enclosed text as more important. It is also easier for screen readers to read for the visually disabled.
+    <h2>Italic and Emphasis</h2>
 
-This is what strong text looks like.
-Italic and Emphasis
+    <i>This text is in italics</i>
 
-This text is in italics
-The emphasis tag has the same visual effect as the italic tag but the emphasis tag also marks the enclosed text as more important. It is also easier for screen readers to read.
+    <p>The emphasis tag has the same visual effect as the italic
+         tag but the emphasis tag also marks the enclosed text 
+         as more important. It is also easier for screen readers 
+         to read.
+    </p>
+    <em> This is what emphasized text looks like.</em>
 
-This is what emphasized text looks like.
-Subscript and Superscript
+    <h2>Subscript and Superscript</h2>
+    <p>
+     Subscript text looks like this <sub>This is subscript.</sub> 
+    </p>
+    <p>
+     Superscript text looks like this <sup>This is superscript.</sup> 
+       
+    </p>
 
-Subscript text looks like this This is subscript.
+    <h2> Inserted and Deleted</h2>
+    <p>
+        Inserted text looks like this: <ins> This is inserted.</ins>
+    </p>
+    <p>
+       Deleted text looks like this: <del>This is deleted.</del> 
+    </p>
+    <h2>Marked</h2>
+    <p>
+       Marked text looks like this: <mark>This is marked.</mark>      
+    </p>
+    <h2>Blockquote</h2>
+    <p>
+        Blockquoted text looks like this:        
+    </p>
+    <blockquote>This is the blockquote.</blockquote>
+    <h2>Code</h2>
+    <p>
+     Computer code text looks like this:<code> This is code.</code>
+    </p>
 
-Superscript text looks like this This is superscript.
 
-Inserted and Deleted
+</body>
 
-Inserted text looks like this: This is inserted.
 
-Deleted text looks like this: This is deleted.
 
-Marked
-
-Marked text looks like this: This is marked.
-
-Blockquote
-
-Blockquoted text looks like this:
-
-This is the blockquote.
-Code
-
-Computer code text looks like this: This is code.
+</html>
